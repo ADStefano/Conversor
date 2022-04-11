@@ -1,4 +1,4 @@
-class DecimalBinario:
+class DecimalBinario: # Provavelmente não era necessário usar uma classe pra isso
 
   def __init__(self,numero):
       numero = numero

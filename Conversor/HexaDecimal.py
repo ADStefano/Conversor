@@ -14,7 +14,7 @@ def HexaDec(NumHexa): # Usa o índice para fazer a conta e transformar em hexade
         NumDec = NumDec + 16 ** contador * NumDecimal(NumHexa[caractere-1])
         contador += 1
             
-    print(str(NumDec))
+    print(str(NumDec)) #imprime
 
 num = input("Insira o hexadecimal que deseja converter para decimal: ") 
 
